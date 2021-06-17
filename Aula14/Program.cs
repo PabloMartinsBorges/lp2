@@ -74,6 +74,11 @@ namespace Aula14
             relatorioFornecedores.AdicionarItem(forne3);
             relatorioFornecedores.ImprimirRelatorio();
 
+            Relatorio relatorioCompras = new Relatorio("Relatório de Compras", "Este relatório apresenta uma lista de vendas");
+            relatorioCompras.AdicionarItem(compra);
+            relatorioCompras.ImprimirRelatorio();
+
+
 
             Console.ReadLine();
 
